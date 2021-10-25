@@ -1,0 +1,8 @@
+# no .tmp files
+*.tmp
+
+# no build directory
+/build
+
+# no .gradle directory
+/.gradle
