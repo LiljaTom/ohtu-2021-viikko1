@@ -6,3 +6,9 @@
 
 # no .gradle directory
 /.gradle
+
+# no bin
+/bin
+
+.project
+.classpath
