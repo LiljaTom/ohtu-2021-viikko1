@@ -138,7 +138,6 @@ public class VarastoTest {
     public void merkkijonoEsitysToimii() {
         varasto.lisaaVarastoon(4.5);
         String esitys = "saldo = 4.5, vielä tilaa 5.5";
-
         assertEquals(esitys, varasto.toString());
     }
 
