@@ -17,7 +17,7 @@ public class Varasto {
     }
 
     public Varasto(double tilavuus, double alkuSaldo) {
-            this(tilavuus);
+        this(tilavuus);
         if (alkuSaldo < 0.0) {
             this.saldo = 0.0;
         } else if (alkuSaldo <= tilavuus) { // mahtuu
